@@ -3,10 +3,10 @@ import React from 'react'
 import { Image, TextInput, View } from 'react-native'
 
 type Props = {
-    placeholder: string
+    placeholder?: string
     onPress?: () => void
-    value: string
-    onChangeText: (text: string) => void
+    value?: string
+    onChangeText?: (text: string) => void
 }
 
 const SearchBar = ({placeholder, onPress, value, onChangeText}: Props) => {
